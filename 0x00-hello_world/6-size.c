@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
  * main(void)- prints out sizes of various types
- * using printf, this program will print out the size of each type using sizeof()
+ * using printf, program prints out the size of each type using sizeof()
  * Return: returns 0
  */
 int main(void)
