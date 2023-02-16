@@ -1,4 +1,5 @@
 #include <unistd.h>
+#include <string.h>
 /**
  * main(void)- prints message to standard error,
  * writesmessage to standard error
