@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 /**
- * main(void)- prints all possible combinations of single-digit numbers
- *  in ascending order
- *  Return: returns 0
+ * main(void)- prints every possible single digit with a comma 
+ * and space in ascending order
+ * Return: returns 0
  */
 
 int main(void)
