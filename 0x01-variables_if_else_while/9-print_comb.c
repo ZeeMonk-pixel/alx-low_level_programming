@@ -2,8 +2,8 @@
 
 /**
  * main(void)- prints all possible combinations of single-digit numbers
- * in ascending order
- * Return: returns 0
+ *  in ascending order
+ *  Return: returns 0
  */
 
 int main(void)
