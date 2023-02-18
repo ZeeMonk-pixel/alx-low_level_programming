@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main(void)-prints all possible combinations of single-digit numbers.
+ * main(void)- prints all possible combinations of single-digit numbers.
  * prints in ascending order
  * Return: returns 0
  */
@@ -15,7 +15,7 @@ int main(void)
 		for (j = 0; j < 10; j++)
 		{
 			putchar(i + '0');
-			putchar(','+' ');
+			putchar(',');
 			putchar(j + '0');
 			putchar('\n');
 		}
