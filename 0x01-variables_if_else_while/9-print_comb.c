@@ -2,7 +2,7 @@
 
 /**
  * main(void)- prints all possible combinations of single-digit numbers.
- * prints in ascending order
+ * in ascending order
  * Return: returns 0
  */
 
@@ -14,6 +14,7 @@ int main(void)
 	{
 		putchar(i + '0');
 		putchar(',');
+		putchar(' ');
 	}
 	putchar('\n');
 	return (0);
