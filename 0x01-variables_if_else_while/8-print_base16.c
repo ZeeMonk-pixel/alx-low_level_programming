@@ -11,12 +11,12 @@ int main(void)
 	char digit = '0';
 	char letter = 'a';
 
-	while(digit <= '9')
+	while (digit <= '9')
 	{
 		putchar(digit);
 		digit++;
 	}
-	while(letter <= 'f')
+	while (letter <= 'f')
 	{
 		putchar(letter);
 		letter++;
