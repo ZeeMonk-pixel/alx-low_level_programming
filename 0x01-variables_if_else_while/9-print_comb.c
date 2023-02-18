@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main(void)- prints every possible single digit with a comma 
+ * main(void)- prints every possible single digit with a comma
  * and space in ascending order
  * Return: returns 0
  */
