@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main(void)- prints all possible combinations of two two-digit numbers.
+ * main(void)- prints all possible two digit numbers from 0 - 100
  * Return: returns 0
  */
 
@@ -15,11 +15,11 @@ int main(void)
 		{
 			if (i != j)
 			{
-				putchar(i/10 + '0');
-				putchar(i%10 + '0');
+				putchar(i / 10 + '0');
+				putchar(i % 10 + '0');
 				putchar(' ');
-				putchar(j/10 + '0');
-				putchar(j%10 + '0');
+				putchar(j / 10 + '0');
+				putchar(j % 10 + '0');
 				putchar(',');
 				putchar(' ');
 			}
