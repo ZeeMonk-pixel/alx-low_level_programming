@@ -14,15 +14,18 @@ int main(void)
 	{
 		for (j = i; j < 100; j++)
 		{
-			if (i != j && j != 99)
+			if (i != j)
 			{
 				putchar(i / 10 + '0');
 				putchar(i % 10 + '0');
 				putchar(' ');
 				putchar(j / 10 + '0');
 				putchar(j % 10 + '0');
-				putchar(',');
-				putchar(' ');
+				if (j != 99)
+				{
+					putchar(',');
+					putchar(' ');
+				}
 			}
 		}
 	}
