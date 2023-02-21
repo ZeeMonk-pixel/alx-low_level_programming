@@ -1,5 +1,11 @@
 #include "main.h"
 
+/**
+ * main(void)-a program that prints _putchar
+ * from header main.h
+ * Return: returns 0
+ */
+
 int main(void)
 {
 	_putchar('_');
