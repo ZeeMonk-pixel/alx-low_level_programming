@@ -1,5 +1,11 @@
 #include "main.h"
 
+/**
+ * print_sign(int n)- prints the sign of a number
+ * @n: my integer
+ * Return: 0 if successful
+ */
+
 
 int print_sign(int n)
 {
