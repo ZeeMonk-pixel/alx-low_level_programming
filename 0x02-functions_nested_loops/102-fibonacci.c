@@ -10,20 +10,20 @@ int main(void)
 {
 
 	int i, count = 50;
-	unsigned long long first = 0, second = 1, next;
+	unsigned long first = 0, second = 1, next;
 
 	for (i = 1; i <= count; ++i)
 	{
 		if (i == 1)
 		{
-			printf("%llu", second);
+			printf("%lu", second);
 		}
 		else
 		{
 			next = first + second;
 			first = second;
 			second = next;
-			printf(", %llu", next);
+			printf(", %lu", next);
 		}
 	}
 	printf("\n");
