@@ -6,7 +6,7 @@
  * Return: 
  */
 
-void print_line(int n)
+int print_line(int n)
 {
         if (n <= 0)
         {
