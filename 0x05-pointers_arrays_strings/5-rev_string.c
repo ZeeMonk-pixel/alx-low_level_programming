@@ -20,16 +20,15 @@ void rev_string(char *s)
 		s++;
 	}
 	s = begin;
-	while (i < len - 1)
+	while (end < s + len - 1)
 	{
 		end++;
-		i++;
 	}
 	while (i < len / 2)
 	{
-		temp = *end;
-		*end = *begin;
-		*begin = temp;
+		temp = *begin;
+		*begin = *end;
+		*end = temp;
 		begin++;
 		end--;
 		i++;
