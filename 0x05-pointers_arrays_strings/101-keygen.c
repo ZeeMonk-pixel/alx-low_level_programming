@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
+#define MAX_PASSWORD_LENGTH 100
 
 
 char random_lowercase() {
@@ -21,7 +22,7 @@ char random_special() {
 }
 
 void generate_password(int length) {
-    char password[length+1];
+	char password[MAX_PASSWORD_LENGTH];
     int i;
 
     srand(time(NULL));
