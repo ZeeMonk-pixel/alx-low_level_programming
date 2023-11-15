@@ -1,14 +1,10 @@
 
 /**
  * is_divisible - check if a number is divisible by something
+ * is_prime_number - checks if a number is prime
  * @n: first int
  *@divisor: divisor
  * Return: Always 0.
- */
-/**
- * is_prime_number - check for prime numbers
- *@n: prime int
- * Return: always 0.
  */
 
 int is_divisible(int n, int divisor)
@@ -19,7 +15,7 @@ int is_divisible(int n, int divisor)
 	}
 	if (n % divisor == 0)
 	{
-		return 1;
+		return (1);
 	}
 	return (is_divisible(n, divisor - 1));
 }
