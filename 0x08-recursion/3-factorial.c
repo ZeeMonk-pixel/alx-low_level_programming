@@ -1,6 +1,6 @@
 
 /**
- * factorial(int n) - this calculates the factorial of a number recurssively
+ * factorial - this calculates the factorial of a number recurssively
  * @n : integer to calculate its factorial
  * Return: Always 0.
  */
