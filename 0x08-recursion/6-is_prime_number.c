@@ -1,11 +1,14 @@
 
 /**
  * is_divisible - check if a number is divisible by something
- * is_prime_number - check for a prime number
- * @n: prime int
- *@n: first int
+ * @n: first int
  *@divisor: divisor
  * Return: Always 0.
+ */
+/**
+ * is_prime_number - check for prime numbers
+ *@n: prime int
+ * Return: always 0.
  */
 
 int is_divisible(int n, int divisor)
