@@ -2,7 +2,7 @@
 
 /**
  * _puts_recursion - takes a string and performs a recursive function on them
- * @char *s: takes a variable s
+ * @s: takes a variable s
  * Return: Always 0.
  */
 
